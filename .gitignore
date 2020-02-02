@@ -1,1 +1,14 @@
-/.idea/
+# Gradle files
+.gradle
+.gradle/
+build/
+gradle-app.setting
+.gradletasknamecache
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# IntelliJ
+*.iml
+*.iws
+.idea/
