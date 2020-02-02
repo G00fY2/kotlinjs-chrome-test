@@ -15,8 +15,3 @@ dependencies {
 }
 
 kotlin.target.browser { }
-
-tasks.register("copyWeb", Copy::class) {
-    from(rootProject.path + "src/main/web")
-    into(rootProject.buildDir.path + "/extension")
-}

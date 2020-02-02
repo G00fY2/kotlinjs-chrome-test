@@ -2,7 +2,6 @@
 
 package chrome.tabs
 
-
 inline fun QueryInfo(block: QueryInfo.() -> Unit) = (js("{}") as QueryInfo).apply(block)
 
 inline fun ExecuteScriptDetails(block: ExecuteScriptDetails.() -> Unit) =
